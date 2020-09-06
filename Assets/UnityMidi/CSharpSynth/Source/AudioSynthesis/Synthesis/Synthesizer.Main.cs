@@ -23,7 +23,7 @@ namespace AudioSynthesis.Synthesis
         #region Fields
         //synth variables
         internal float[] sampleBuffer;
-        private VoiceManager voiceManager;
+        internal VoiceManager voiceManager;
         private int audioChannels;
         private bool littleEndian;
         private PatchBank bank;
@@ -32,7 +32,7 @@ namespace AudioSynthesis.Synthesis
         private float synthGain = .35f;
         private int microBufferSize;
         private int microBufferCount;
-        private SynthParameters[] synthChannels;
+        public SynthParameters[] synthChannels;
         #endregion
         #region Properties
         /// <summary>

@@ -20,7 +20,7 @@
             : base(delta, status, data1, data2) { }
         public override string ToString()
         {
-            return "MetaEvent: " + Enum.GetName(typeof(MetaEventTypeEnum), Data1);
+            return GetType() + "  " + Enum.GetName(typeof(MetaEventTypeEnum), Data1);
         }
     }
 }
