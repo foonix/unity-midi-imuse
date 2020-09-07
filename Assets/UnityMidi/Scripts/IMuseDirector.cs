@@ -1,7 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
-using AudioSynthesis;
 using AudioSynthesis.Bank;
 using AudioSynthesis.Midi;
 using AudioSynthesis.Synthesis;
@@ -11,7 +9,7 @@ using UnityMidi;
 namespace AudioSynthesis.Sequencer.IMuse
 {
     /// <summary>
-    /// The directoris responsible for correlating what is going on in game with what happens in the music.
+    /// The director is responsible for correlating what is going on in game with what happens in the music.
     /// 
     /// It:
     ///  - Loads the song(s) appropriate for the scene into the sequencer.

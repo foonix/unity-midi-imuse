@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AudioSynthesis.Sequencer.IMuse
+﻿namespace AudioSynthesis.Sequencer.IMuse
 {
     internal enum IMuseSysExType
     {
@@ -29,12 +23,5 @@ namespace AudioSynthesis.Sequencer.IMuse
     internal enum SysExVendor
     {
         IMuse = 0x7D,
-    }
-
-    public enum MidiFileType
-    {
-        GMID,
-        RLND,
-        ADLB
     }
 }
